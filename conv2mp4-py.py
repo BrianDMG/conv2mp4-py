@@ -39,17 +39,17 @@ handbrake_dir = path to Handbrake directory. This is the directory containing Ha
 handbrakecli_exe = name of the handbrakecli executable (eg. handbrakecli.exe, handbrake.sh)
 garbage = the extensions of the files you want to delete in the format "*.ex1", "*.ex2".
 ---------------------------------------------------------------------------------------------------------------------"""
-media_path = '//192.168.82.82/nas/tempCopy/'
+media_path = '//yourpath/here/'
 file_types = '.mkv', '.avi', '.flv', '.mpeg', '.ts'
-log_path = 'C:/Users/BrianDmg/Desktop/'
+log_path = '//yourpath/here/'
 log_name = "conv2mp4-py.log"
-plex_ip = '192.168.82.84:32400'
-plex_token = 'ppP65XyLRPeN8zYinsM9'
-ffmeg_bin_dir = 'C:/ffmpeg/bin/'
-ffmpeg_exe = "ffmpeg.exe"
-ffprobe_exe = "ffprobe.exe"
-handbrake_dir = 'C:/Program Files/HandBrake/'
-handbrakecli_exe = "handbrakecli.exe"
+plex_ip = 'plexip:32400'
+plex_token = 'plextoken'
+ffmeg_bin_dir = '//yourpath/here/'
+ffmpeg_exe = "ffmpeg."
+ffprobe_exe = "ffprobe."
+handbrake_dir = '//yourpath/here/'
+handbrakecli_exe = "handbrakecli."
 garbage = '.nfo', '.idx', '.txt'  # Change to a single, non-existent extension to negate
 
 """---------------------------------------------------------------------------------------------------------------------
