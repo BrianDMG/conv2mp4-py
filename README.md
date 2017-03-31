@@ -1,0 +1,2 @@
+# conv2mp4-py
+Python script will recursively search through a user-defined file path and convert all videos of user-specified  file types to MP4 with H264 video and AAC audio using ffmpeg. If a conversion failure is detected, the script re-encodes the file with HandbrakeCLI. Upon successful encoding, Plex libraries are refreshed and source file is deleted.  The purpose of this script is to reduce the amount of transcoding CPU load on a Plex server.
