@@ -16,7 +16,7 @@ There are several user-defined variables you will need to edit using notepad or 
 <b>plex_ip</b> = the IP address and port of your Plex server (for the purpose of refreshing its libraries)<br>
 <b>plex_token</b> = your Plex server's token (for the purpose of refreshing its libraries).<br>
 <i>NOTE: See https://support.plex.tv/hc/en-us/articles/204059436-Finding-your-account-token-X-Plex-Token<br>
-Plex server token is also easy to retrieve with PlexPy, Ombi, Couchpotato, or SickRage<br>
+Plex server token is also easy to retrieve with PlexPy, Ombi, Couchpotato, or SickRage</i><br>
 <b>ffmeg_bin_dir</b> = path to ffmpeg bin folder. This is the directory containing ffmpeg and ffprobe executables.<br> 
 <b>ffmpeg_exe</b> = name of the ffmpeg executable (eg. ffmpeg.exe, ffmpeg.sh, etc.)<br>
 <b>ffprobe_exe</b> = name of the ffprobe executable (eg. ffprobe.exe, ffprobe.sh, etc.)<br>
