@@ -1,0 +1,31 @@
+#Version
+version=1.0
+platform=py
+
+#URLs
+github_url=https://github.com/BrianDMG/conv2mp4-py
+
+#File Paths
+cfg_path=files\cfg\config
+log_path=files\log\conv2mp4-ps.log
+lock_path=files\lock\conv2mp4-ps.lock
+ignore_path=files\ignore\ignore.list
+
+#Init Paths
+buildqueue=files\init\buildqueue.py
+init=files\init\init.py
+loadcfg=files\init\loadcfg.py
+preflight=files\init\preflight.py
+
+#Function Paths
+func_basepath=files\func
+
+#Temporary files
+tmp_dir=files\tmp\
+tmp_51out=51out.aac
+tmp_2in=2in.aac
+
+#Formatting
+standard_divider=------------------------------------------------------------------------------------
+standard_indent=>>>>>
+final_stat_divider=____________________________________________________________________________________
